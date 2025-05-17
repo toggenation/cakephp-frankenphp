@@ -6,11 +6,11 @@ ENV SERVER_NAME=localhost
 #ENV SERVER_NAME=:80
 
 RUN install-php-extensions \
-	pdo_mysql \
 	intl \
 	zip \
 	opcache \
-	sqlite3
+	sqlite3 \
+	pdo_pgsql
 
 # Enable PHP production settings
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini" && \
