@@ -1,5 +1,9 @@
 # CakePHP Running in FrankenPHP Docker Container
 
+This currently isn't working because the worker.php isn't right goto the following link for details on a working `frankenphp` setup
+
+https://toggen.com.au/it-tips/frankenphp-caddy-ubuntu-24-04-cakephp/ 
+
 See below for a minimal Docker compose environment with Postgres, Mailpit, PgAdmin and FrankenPHP containers
 
 Tried on Apple Silicon Mac
